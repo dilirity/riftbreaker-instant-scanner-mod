@@ -115,7 +115,7 @@ function scanner:OnExecuteScaning()
 				self:SpawnSpecifcEffect( currentTarget )
 				QueueEvent( "EntityScanningStartEvent", currentTarget )
 			elseif ( currentTarget == self.lastTarget ) then
-				self.scanningTime = self.scanningTime + ( 1.0 / 30.0 )
+				self.scanningTime = 10
 				self.factor =  self.scanningTime / self.maxScanTime
 				EffectService:SetParticleEmmissionUniform( self.effect, self.factor )
 				if ( self.scanningTime >= self.maxScanTime ) then
