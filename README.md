@@ -2,4 +2,4 @@
 
 ## Installation
 
-Download a zip of the repo, and add the zip to your "game folder/packs" folder.
+Either add the file to "Riftbreaker/data/lua/items/interactive" folder or create a zip with the following folder structure and add it to the "Riftbreaker/packs" directory "lua/items/interactive".
